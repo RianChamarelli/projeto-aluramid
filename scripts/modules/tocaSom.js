@@ -4,4 +4,4 @@ const tocaSom = (idAudio) => {
     
 }
 
-export {tocaSom};
+export default tocaSom;

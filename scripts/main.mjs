@@ -1,4 +1,5 @@
-import {tocaSom} from "./modules/tocaSom.mjs";
+import tocaSom from "./modules/tocaSom.js";
+
 
     const teclas = document.querySelectorAll('.tecla');
     
@@ -10,8 +11,6 @@ import {tocaSom} from "./modules/tocaSom.mjs";
             element.addEventListener('click', () => {
                 tocaSom(idAudio);
             })
-        });
+        })
     }   
-
-export {reproduzSom}; 
 
